@@ -16,23 +16,29 @@
     <div class="col-md-2">
       <nav class=“navbar”>
         <div class="sidenav">
-          <a href="view">View</a>
-          <a href="add">Add</a>
-          <a href="verify">Verify</a>
-          <a href="update">Update</a>
-          <a href="delete">Delete</a>
+          <ul>
+            <li class="mt-3"><button id="view">View</button></li>
+            <li class="mt-3"><button id="add">Add</button></li>
+            <li class="mt-3"><button id="verify">Verify</button></li>
+            <li class="mt-3"><button id="update">Update</button></li>
+            <li class="mt-3"><button id="delete">Delete</button></li>
+            <!-- <li><a id="add">Add</a></li>
+            <li><a id="verify">Verify</a></li>
+            <li><a id="Update">Update</a></li>
+            <li><a id="delete">Delete</a></li> -->
+          </ul>
         </div>
       </nav>
     </div>
     <div class="content col-md-10">
-      <form><input placeholder="Employee Name" id="Name" />
+      <form><input placeholder="Employee Name" id="name" />
         <div class="additional">
-          <input placeholder="Office Number" id="Office" />
-          <input placeholder="Phone Number" id="Phone" />
+          <input placeholder="Office Number" id="office" />
+          <input placeholder="Phone Number" id="phone" />
         </div>
-        <button class="btn btn-primary" id="Submit">Submit</button>           
+        <button class="btn btn-primary" type="submit">Submit</button>
       </form>
-    <div class="list"></div>
+      <div class="list"></div>
     </div>
   </div>
 </div>
